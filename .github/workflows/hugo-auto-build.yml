@@ -1,5 +1,6 @@
+# 自动部署hugo，到 gh-pages分支
 name: github pages
-
+# 触发条件和分支
 on:
   push:
     branches:
@@ -26,6 +27,6 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_key: ${{ secrets.MY_GITHUB_TOKEN }}
+          deploy_key: ${{ secrets.MY_ACTION_DEPLOY_KEY }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: ./
