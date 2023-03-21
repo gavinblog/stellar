@@ -5,3 +5,4 @@
 测试自动部署 到 gp-pages3
 测试自动部署 到 gp-pages4
 测试自动部署 到 gp-pages5
+测试自动部署 到 gp-pages6
