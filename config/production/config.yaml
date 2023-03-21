@@ -63,11 +63,11 @@ menus:
         url: "/archives/"
   - name: "主题"
     weight: 2
-    url: "/建站/"
+    url: "/categories/建站/"
     params:
       tabs:
       - name: "快速开始"
-        url: "/建站/"
+        url: "/categories/建站/"
   - name: "文档"
     weight: 2
     url: "/docs/"
