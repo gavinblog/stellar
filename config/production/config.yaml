@@ -25,8 +25,8 @@ params:
 
   copyright: "copyright@2023 --- By geekswg Powered By [Hugo-stellar](https://github.com/Yharimium/hugo-stellar/) <br/> <a href='https://icp.gov.moe/?keyword=20231992' target='_blank'>萌ICP备20231992号</a>"
 
-  tencentUrl: false
-  autoInvert: true
+  tencentUrl: true
+  autoInvert: false
 
   #社交信息
   social:
