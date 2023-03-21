@@ -55,7 +55,6 @@ featuredImage: "/images/posts/featured-image-preview.jpg"
 |[NanaZip](https://github.com/M2Team/NanaZip/releases/)|基于7-zip开发|支持适配win11右键菜单|
 |[RoundedTB](https://github.com/torchgm/RoundedTB/releases)|Add margins, rounded corners and segments to your taskbars!|win11任务栏美化|
 |[VirtualBox](https://www.virtualbox.org/)|VirtualBox is a powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use. Not only is VirtualBox an extremely feature rich, high performance product for enterprise customers, it is also the only professional solution that is freely available as Open Source Software under the terms of the GNU General Public License (GPL) version 3. See "About VirtualBox" for an introduction.| Oracle旗下免费虚拟机软件,小巧，扔掉VM吧 |
-|<p style="width:10%"></p>|<p style="width:60%"></p>|<p style="width:30%"></p>|
 
 ## apps-安卓软件
 
