@@ -6,7 +6,13 @@ url: /about/
 
 ## About Me
 
-> 关于我
+## 博客主题
+本站使用 Hugo 搭建，移植了 Hexo Stellar 主题，并有所改动。
+
+* [Hugo Stellar](https://github.com/Yharimium/hugo-stellar/)
+* [Hexo Theme Stellar（原主题）](https://xaoxuu.com/wiki/stellar/)
+
+> 关于我 
 Talk is cheap , Show me The code.
 
 ## About Hugo
