@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>毕少侠-By stellar</title><link>/</link><description>Recent content on 毕少侠-By stellar</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 21 Mar 2023 14:26:52 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>(Hu)go Template Primer</title><link>/posts/hugo/goisforlovers/</link><pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate><guid>/posts/hugo/goisforlovers/</guid><description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>毕少侠-By stellar</title><link>/</link><description>Recent content on 毕少侠-By stellar</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 21 Mar 2023 14:26:52 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Debian Theme Whitesur</title><link>/posts/linux/debian-theme-whitesur/</link><pubDate>Thu, 16 Mar 2023 20:06:36 +0800</pubDate><guid>/posts/linux/debian-theme-whitesur/</guid><description>&lt;p>!!! note
+通过安装Whitesur主题，让你的linux看起来非常炫酷。&lt;/p></description></item><item><title>Debian11 Learn 相关命令</title><link>/posts/linux/debian11-learn/</link><pubDate>Sun, 05 Mar 2023 18:27:38 +0800</pubDate><guid>/posts/linux/debian11-learn/</guid><description>&lt;p>!!! note
+刚刚入手debian11,记录使用中遇到的一些常用命令。&lt;/p></description></item><item><title>Debian从稳定版切换到testing版</title><link>/posts/linux/debian-testing/</link><pubDate>Sun, 05 Mar 2023 14:50:31 +0800</pubDate><guid>/posts/linux/debian-testing/</guid><description>&lt;p>!!! note
+debian升级到testing – 让debian系统永远保持最新的秘诀&lt;/p></description></item><item><title>分享VSCode插件</title><link>/posts/share/share-vscode-plugins/</link><pubDate>Sat, 04 Mar 2023 15:34:45 +0800</pubDate><guid>/posts/share/share-vscode-plugins/</guid><description>&lt;p>!!! warning
+所有分享资源来自互联网，如有侵权请告知，会立即删除
+note abstract info tip success question warning failure danger bug example quote&lt;/p>
+&lt;blockquote>
+&lt;p>分享 VSCode 插件，提升编码效率，插件侠篇。
+!!! note
+小技巧：vscode插件栏目中，热门标签类目下的插件都是比较优秀和好用的插件，不知道用什么插件时去哪里可以发现很多宝藏的插件！推荐里面也能找到你想要的，微软这方面做的还是非常不错的。&lt;/p>
+&lt;/blockquote></description></item><item><title>ShareAnything-分享一切</title><link>/posts/share/share/</link><pubDate>Wed, 01 Mar 2023 08:52:54 +0800</pubDate><guid>/posts/share/share/</guid><description>&lt;p>!!! warning 申明
+所有分享资源来自互联网，如有侵权请告知，会立即删除&lt;/p>
+&lt;blockquote>
+&lt;p>分享 音乐、软件、网站等一切我觉得好玩或者有用的资源&lt;/p>
+&lt;/blockquote>
+&lt;p>!!! info 提示
+软件都是我用过的，大家可以放心食用，不给任何产品推广。
+Do no evil ！&lt;/p></description></item><item><title>日常笔记</title><link>/posts/notes/daily-notes/</link><pubDate>Tue, 28 Feb 2023 13:28:09 +0800</pubDate><guid>/posts/notes/daily-notes/</guid><description>&lt;p>!!! note
+记录日常笔记和分享一些有趣的发现，随手记录一些流水账，好记性不如烂笔头。
+倒叙记录。&lt;/p></description></item><item><title>notes1</title><link>/posts/notes/notes1/</link><pubDate>Tue, 28 Feb 2023 01:51:53 +0800</pubDate><guid>/posts/notes/notes1/</guid><description>&lt;p>!!! note
+note abstract info tip success question warning failure danger bug example quote&lt;/p>
+&lt;p>这里使用MD语法编写你的文章&lt;/p></description></item><item><title>notes2</title><link>/posts/notes/notes2/</link><pubDate>Tue, 28 Feb 2023 01:51:53 +0800</pubDate><guid>/posts/notes/notes2/</guid><description>&lt;p>!!! note
+note abstract info tip success question warning failure danger bug example quote&lt;/p>
+&lt;p>这里使用MD语法编写你的文章&lt;/p></description></item><item><title>(Hu)go Template Primer</title><link>/posts/hugo/goisforlovers/</link><pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate><guid>/posts/hugo/goisforlovers/</guid><description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
 This document is a brief primer on using Go templates.</description></item><item><title>Getting Started with Hugo</title><link>/posts/hugo/hugoisforlovers/</link><pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate><guid>/posts/hugo/hugoisforlovers/</guid><description>Step 1. Install Hugo # Go to Hugo releases and download the appropriate version for your OS and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at Install Hugo
