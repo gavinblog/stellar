@@ -1,7 +1,7 @@
-title: "Hugo Stellar"
+title: "毕少侠"
 paginate: 8
 relativeURLs: true
-
+#主题配置
 theme:
 - stellar
 
@@ -9,19 +9,19 @@ markup:
   _merge: deep
 
 params:
-  author: Stellar
+  author: 毕少侠
   avatar: /avatar.png
   logo: /logo.svg
 
   description:
-  - "subtitle"
+  - "毕少侠也在江湖"
   - "subsubtitle"
 
   notice:
-  - "notice"
+  - "notice notice notice notice"
   - "support `markdown` syntax"
 
-  copyright: "place copyright here"
+  copyright: "copyright info --- By Geekswg"
 
   tencentUrl: true
   autoInvert: true
@@ -31,7 +31,7 @@ params:
     url: "https://gohugo.io/"
     logo: "/img/social/hugo.svg"
   - name: "github"
-    url: "https://github.com/"
+    url: "https://github.com/geekswg"
     logo: "/img/social/github.svg"
   - name: "bilibili"
     url: "https://space.bilibili.com/"
