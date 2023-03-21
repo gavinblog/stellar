@@ -1,6 +1,6 @@
 title: "毕少侠-By stellar"
 paginate: 8
-relativeURLs: true
+relativeURLs: false
 #主题配置
 theme:
 - stellar
