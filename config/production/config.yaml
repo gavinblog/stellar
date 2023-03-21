@@ -61,13 +61,6 @@ menus:
         url: "/tags/"
       - name: "归档"
         url: "/archives/"
-  - name: "主题"
-    weight: 2
-    url: "/categories/建站/"
-    params:
-      tabs:
-      - name: "快速开始"
-        url: "/categories/建站/"
   - name: "文档"
     weight: 2
     url: "/docs/"
@@ -75,6 +68,8 @@ menus:
       tabs:
       - name: "所有文档"
         url: "/docs/"
+      - name: "Hugo Stellar"
+        url: "/categories/建站/"
   - name: "搜索"
     weight: 3
     url: "/search/"
