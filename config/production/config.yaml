@@ -1,4 +1,4 @@
-title: "毕少侠"
+title: "毕少侠-By stellar"
 paginate: 8
 relativeURLs: true
 #主题配置
@@ -18,7 +18,8 @@ params:
   - "subsubtitle"
 
   notice:
-  - "notice notice notice notice"
+  - "这是一条公告信息！！！"
+  - "支持MD语法"
   - "support `markdown` syntax"
 
   copyright: "copyright info --- By Geekswg"
@@ -26,17 +27,18 @@ params:
   tencentUrl: true
   autoInvert: true
 
+  #社交信息
   social:
   - name: "hugo"
     url: "https://gohugo.io/"
     logo: "/img/social/hugo.svg"
   - name: "github"
-    url: "https://github.com/geekswg"
+    url: "https://github.com/fixit-theme/hugo-blog"
     logo: "/img/social/github.svg"
   - name: "bilibili"
     url: "https://space.bilibili.com/"
     logo: "/img/social/bilibili.svg"
-
+#菜单
 menus:
   main:
   - name: "博客"
