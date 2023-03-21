@@ -1,18 +1,17 @@
-<!doctype html><html lang=en><head><title>Debian11 Learn 相关命令 - 毕少侠-By stellar</title><meta charset=utf-8><meta name=author content="毕少侠"><meta name=Robots content="All"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=renderer content="webkit"><meta name=force-rendering content="webkit"><meta http-equiv=windows-target content="_top"><link rel="shortcut icon" type=image/x-icon href=/logo.svg><link rel=alt type=application/rss+xml href=/index.xml title="毕少侠-By stellar"><link rel=stylesheet href=/_index.css><script src=/modules/redirector.js></script><link rel=dns-prefetch href=https://cdn.staticfile.org>
-<link rel=preconnect href=https://cdn.staticfile.org crossorigin><link rel=stylesheet href=https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.1.0/lxgwwenkaiscreen.css><script src=https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js></script><script src=https://cdn.staticfile.org/mermaid/9.4.0/mermaid.js></script><link rel=stylesheet href=/modules/fancybox.css><script src=/modules/fancybox.umd.js defer></script><script src=/modules/img.js defer></script><script src=/modules/toc.js defer></script><script src=/modules/codeblock.js defer></script><script src=/modules/mathjax.js defer></script><script src=https://cdn.staticfile.org/mathjax/2.7.7/MathJax.js defer></script><link rel=stylesheet href=/autoinvert.css>
-<script>mermaid.initialize({securityLevel:"loose",themeVariables:{fontFamily:"Cera Round Pro",fontSize:"85%"}})</script></head><body><div class=LBody><div class=Side><header class=header><div class=info><a class=avatar href=/><div class="bg shadow"></div><img class="bg rainbow" src=/img/rainbow64@3x.webp>
-<img class=avatar src=/avatar.png></a>
-<a class=title href=/><p class="text site-title">毕少侠</p><p class="sub up">毕少侠也在江湖</p><p class="sub dw">Talk is Cheap, Show me the code.</p></a></div><nav class=menu><a class="nav-item active" href=/>博客</a><a class=nav-item href=/docs/>文档</a><a class=nav-item href=/search/>搜索</a><a class=nav-item href=/about/>关于</a></nav></header><div class=widgets><div class="widget search"><div class=search-form><input type=text class=search-input id=side-search-input placeholder autocomplete=off>
-<img class=search-icon src=/img/search.svg>
+<!doctype html><html lang=en><head><title>Debian11 Learn 相关命令 - 毕少侠-By stellar</title><meta charset=utf-8><meta name=author content="毕少侠"><meta name=Robots content="All"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=renderer content="webkit"><meta name=force-rendering content="webkit"><meta http-equiv=windows-target content="_top"><link rel="shortcut icon" type=image/x-icon href=../../../logo.svg><link rel=alt type=application/rss+xml href=../../../index.xml title="毕少侠-By stellar"><link rel=stylesheet href=../../../_index.css><link rel=dns-prefetch href=https://cdn.staticfile.org><link rel=preconnect href=https://cdn.staticfile.org crossorigin><link rel=stylesheet href=https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.1.0/lxgwwenkaiscreen.css><script src=https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js></script><script src=https://cdn.staticfile.org/mermaid/9.4.0/mermaid.js></script><link rel=stylesheet href=../../../modules/fancybox.css><script src=../../../modules/fancybox.umd.js defer></script><script src=../../../modules/img.js defer></script><script src=../../../modules/toc.js defer></script><script src=../../../modules/codeblock.js defer></script><script src=../../../modules/mathjax.js defer></script><script src=https://cdn.staticfile.org/mathjax/2.7.7/MathJax.js defer></script><link rel=stylesheet href=../../../autoinvert.css>
+<script>mermaid.initialize({securityLevel:"loose",themeVariables:{fontFamily:"Cera Round Pro",fontSize:"85%"}})</script></head><body><div class=LBody><div class=Side><header class=header><div class=info><a class=avatar href=../../../><div class="bg shadow"></div><img class="bg rainbow" src=../../../img/rainbow64@3x.webp>
+<img class=avatar src=../../../avatar.png></a>
+<a class=title href=../../../><p class="text site-title">毕少侠</p><p class="sub up">毕少侠也在江湖</p><p class="sub dw">Talk is Cheap, Show me the code.</p></a></div><nav class=menu><a class="nav-item active" href=../../../>博客</a><a class=nav-item href=../../../docs/>文档</a><a class=nav-item href=../../../search/>搜索</a><a class=nav-item href=../../../about/>关于</a></nav></header><div class=widgets><div class="widget search"><div class=search-form><input type=text class=search-input id=side-search-input placeholder autocomplete=off>
+<img class=search-icon src=../../../img/search.svg>
 <script>var $input=$("#side-search-input"),section=window.location.pathname.substring(0,6)=="/docs/"?"docs":"posts";$input.attr("placeholder",section=="docs"?"文档搜索":"博客搜索"),$input.keydown(e=>{e.keyCode==13&&window.open(`/search/?sec=${section}?key=${$input.val()}`)})</script></div></div><div class="widget toc"><p class=title><a href=#>Debian11 Learn 相关命令</a></p><div class="content markdown"><nav id=TableOfContents><ul><li><a href=#配置中文环境>配置中文环境</a></li><li><a href=#安装中文输入法>安装中文输入法</a></li><li><a href=#安装vscode>安装VScode</a></li><li><a href=#安装hugo>安装Hugo</a></li></ul></nav></div></div></div><footer class=footer><div class=social><a class=box href=https://geekswg.js.cool/ target=_blank><img src=https://geekswg.js.cool/logo.png>
 </a><a class=box href=https://yharim.com/ target=_blank><img src=https://yharim.com/avatar.png>
-</a><a class=box href=https://github.com/Yharimium/hugo-stellar target=_blank><img src=/avatar.png>
-</a><a class=box href=https://gohugo.io/ target=_blank><img src=/img/social/hugo.svg>
-</a><a class=box href=https://github.com/fixit-theme/hugo-blog target=_blank><img src=/img/social/github.svg>
-</a><a class=box href=https://space.bilibili.com/ target=_blank><img src=/img/social/bilibili.svg></a></div></footer></div><div class=Main><div class="info mobile-only"><a class=avatar href=/><div class="bg shadow"></div><img class="bg rainbow" src=/img/rainbow64@3x.webp>
-<img class=avatar src=/avatar.png></a>
-<a class=title href=/><p class="text site-title">毕少侠</p><p class="sub up">毕少侠也在江湖</p><p class="sub dw">Talk is Cheap, Show me the code.</p></a></div><div class="mobile-only sidebar-button" onclick=sidebar_button_click()><img src=/img/menu.svg></img>
-<script>sidebar_button_click=e=>{$(".Side")[0].classList.toggle("layout"),$(".sidebar-button")[0].classList.toggle("layout")}</script></div><main class="content markdown"><div class=params><div class=categories><a class=param href=/categories/linux>linux</a></div><div class=tags><a class=param href=/tags/linux>linux</a><a class=param href=/tags/debian>debian</a></div></div><div class=meta>发布于 2023-3-5</div><h1 class=title>Debian11 Learn 相关命令</h1><span class=description>摘要</span><div class='mkdocs hint note' open><p class=title><img class=icon src=/img/material/note.svg>
+</a><a class=box href=https://github.com/Yharimium/hugo-stellar target=_blank><img src=../../../avatar.png>
+</a><a class=box href=https://gohugo.io/ target=_blank><img src=../../../img/social/hugo.svg>
+</a><a class=box href=https://github.com/fixit-theme/hugo-blog target=_blank><img src=../../../img/social/github.svg>
+</a><a class=box href=https://space.bilibili.com/ target=_blank><img src=../../../img/social/bilibili.svg></a></div></footer></div><div class=Main><div class="info mobile-only"><a class=avatar href=../../../><div class="bg shadow"></div><img class="bg rainbow" src=../../../img/rainbow64@3x.webp>
+<img class=avatar src=../../../avatar.png></a>
+<a class=title href=../../../><p class="text site-title">毕少侠</p><p class="sub up">毕少侠也在江湖</p><p class="sub dw">Talk is Cheap, Show me the code.</p></a></div><div class="mobile-only sidebar-button" onclick=sidebar_button_click()><img src=../../../img/menu.svg></img>
+<script>sidebar_button_click=e=>{$(".Side")[0].classList.toggle("layout"),$(".sidebar-button")[0].classList.toggle("layout")}</script></div><main class="content markdown"><div class=params><div class=categories><a class=param href=../../../categories/linux>linux</a></div><div class=tags><a class=param href=../../../tags/linux>linux</a><a class=param href=../../../tags/debian>debian</a></div></div><div class=meta>发布于 2023-3-5</div><h1 class=title>Debian11 Learn 相关命令</h1><span class=description>摘要</span><div class='mkdocs hint note' open><p class=title><img class=icon src=../../../img/material/note.svg>
 <span>note</span></p><div class=inner><p>刚刚入手debian11,记录使用中遇到的一些常用命令。</p></div></div><h2 id=#配置中文环境>配置中文环境
 <a class=anchor name=配置中文环境 href=#%e9%85%8d%e7%bd%ae%e4%b8%ad%e6%96%87%e7%8e%af%e5%a2%83>#</a></h2><p>首先我们添加对中文的支持：
 <code>sudo apt-get install locales</code></p><p>然后然后配置 locales 软件包:
@@ -22,8 +21,8 @@
 </span><span class=lnt id=3><a class=lnlinks href=#3>3</a>
 </span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>apt-get install scim   
 </span></span><span class=line><span class=cl>apt-get install scim-chinese   
-</span></span><span class=line><span class=cl>apt-get install scim-pinyin  </span></span></code></pre></td></tr></table></div><span class=board><img class=edit src=/img/edit.svg>
-<img class=clipboard src=/img/clipboard.svg></span></div><h2 id=#安装vscode>安装VScode
+</span></span><span class=line><span class=cl>apt-get install scim-pinyin  </span></span></code></pre></td></tr></table></div><span class=board><img class=edit src=../../../img/edit.svg>
+<img class=clipboard src=../../../img/clipboard.svg></span></div><h2 id=#安装vscode>安装VScode
 <a class=anchor name=安装vscode href=#%e5%ae%89%e8%a3%85vscode>#</a></h2><blockquote><p>Visual Studio Code是由微软Microsoft开发，功能强大的开源代码编辑器。它具有内置的调试支持。
 嵌入式Git控件，语法高亮显示，代码自动补全，集成终端，代码重构和代码片段。
 本教程介绍如何在Debian 11安装vscode编辑器。在继续本教程之前，我们假设你当前登录系统的用户是具有sudo权限的用户。
@@ -66,8 +65,8 @@
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=nb>echo</span> <span class=s2>&#34;instsall is finish&#34;</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=c1># 完</span></span></span></code></pre></td></tr></table></div><span class=board><img class=edit src=/img/edit.svg>
-<img class=clipboard src=/img/clipboard.svg></span></div><h2 id=#安装hugo>安装Hugo
+</span></span><span class=line><span class=cl><span class=c1># 完</span></span></span></code></pre></td></tr></table></div><span class=board><img class=edit src=../../../img/edit.svg>
+<img class=clipboard src=../../../img/clipboard.svg></span></div><h2 id=#安装hugo>安装Hugo
 <a class=anchor name=安装hugo href=#%e5%ae%89%e8%a3%85hugo>#</a></h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt id=1><a class=lnlinks href=#1>1</a>
 </span><span class=lnt id=2><a class=lnlinks href=#2>2</a>
 </span><span class=lnt id=3><a class=lnlinks href=#3>3</a>
@@ -85,5 +84,5 @@
 </span></span><span class=line><span class=cl>sudo apt install hugo
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=c1># 查看hugo 版本号以验证是否安装成功：</span>
-</span></span><span class=line><span class=cl>hugo version</span></span></code></pre></td></tr></table></div><span class=board><img class=edit src=/img/edit.svg>
-<img class=clipboard src=/img/clipboard.svg></span></div></main></div></div></body></html>
+</span></span><span class=line><span class=cl>hugo version</span></span></code></pre></td></tr></table></div><span class=board><img class=edit src=../../../img/edit.svg>
+<img class=clipboard src=../../../img/clipboard.svg></span></div></main></div></div></body></html>
