@@ -29,6 +29,9 @@ params:
 
   #社交信息
   social:
+  - name: "毕少侠"
+    url: "https://geekswg.js.cool/"
+    logo: "https://geekswg.js.cool/logo.png"
   - name: "hugo"
     url: "https://gohugo.io/"
     logo: "/img/social/hugo.svg"
