@@ -45,7 +45,6 @@ featuredImage: "/images/posts/featured-image-preview.jpg"
 
 |<center>**链接**</center>| **描述** | **备注** |
 |:--|:------|:--|
-
 |[Office部署工具](https://otp.landian.vip/zh-cn/download.html)|一个强大且实用的 Office 部署工具。系统要求：Windows 7 SP1 或更高版本，不支持其他操作系统（例如 Linux 或 macOS）。|推荐安装绿色免费好管理|
 |[verycapture](https://verycapture.com/cn/download.html)|VeryCapture专业的屏幕截取软件，提升办公效率，让用户有更多时间投入业务|截图、免费、            |
 |[音乐-lx-music](https://lxmusic.toside.cn/)|一个免费&开源的音乐查找工具|手机电脑双端、绿色、音乐、下载手机电脑双端、绿色、音乐、下载|
