@@ -1,0 +1,42 @@
+%toc
+    line-height: 1.2
+    margin-left: 0
+
+    *
+        font-weight: normal !important
+
+    ul
+        margin-left: .75rem
+        padding-left: .5rem
+        position: relative
+        &::after
+            @extend %line-v
+    
+    > ul
+        margin-left: 0
+
+    li
+        list-style: none
+        margin: 0
+        > a
+            @extend %card-dis
+            &:hover
+                @extend %card-hov
+
+            @include font(13.6px, --text-p2)
+            display: block
+            padding: 5px 8px
+            white-space: break-spaces
+
+            &.active
+                color: var(--text-link)
+
+                &::after
+                    @extend %line-v-a
+                    left: -.55rem
+    
+&.toc
+    .content
+        padding-left: 2px
+        #TableOfContents
+            @extend %toc

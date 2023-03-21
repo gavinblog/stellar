@@ -1,0 +1,39 @@
+.header
+    margin: 1rem
+    margin-top: 2rem
+
+    .back
+        @include font(13px, --text-p2)
+        display: block
+        margin-bottom: .5rem
+        span
+            display: inline-block
+            vertical-align: 3px
+        &:hover
+            @include font(--text-warn)
+
+    .info
+        @extend %info
+
+    .menu
+        @include border
+        @include radius(all, 4px)
+        z-index: 999
+        margin: 1rem 0 0 0
+        background: var(--bg-blk)
+        display: flex
+
+        .nav-item
+            @extend %card-dis
+            &.active, &:hover
+                @extend %card
+
+            @include font(14px)
+            flex-grow: 1
+            text-align: center
+            text-overflow: ellipsis
+            margin: .05rem
+            overflow: hidden
+
+
+
