@@ -30,4 +30,4 @@ jobs:
           github_token: ${{ secrets.HUGO_THEME_TOKEN }}
           deploy_key: ${{ secrets.MY_ACTION_DEPLOY_KEY }}
           PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: ./
+          PUBLISH_DIR: ./public
