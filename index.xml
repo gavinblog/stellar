@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>毕少侠-By stellar</title><link>/</link><description>Recent content on 毕少侠-By stellar</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 21 Mar 2023 14:26:52 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Debian Theme Whitesur</title><link>/posts/linux/debian-theme-whitesur/</link><pubDate>Thu, 16 Mar 2023 20:06:36 +0800</pubDate><guid>/posts/linux/debian-theme-whitesur/</guid><description>&lt;p>!!! note
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>毕少侠-By stellar</title><link>/</link><description>Recent content on 毕少侠-By stellar</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 22 Mar 2023 16:39:54 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>share-分享TVBox类TV盒子软件</title><link>/posts/share-tvbox/idnex/</link><pubDate>Wed, 22 Mar 2023 16:39:54 +0800</pubDate><guid>/posts/share-tvbox/idnex/</guid><description>!!! warning 申明 所有资源来自互联网，视频源归原作者，请勿商业用途，否则后果自负。 note abstract info tip success question warning failure danger bug example quote
+资源下载 # 饭太硬导航 这里有TVBox类壳子资源网站
+说明：TVBox 影视壳子，只是给空壳软件，不提供视频播放源的。 毕竟开发者要规避法律风险的，只提供工具。 这就使这个软件下载过后，安装后并不能直接使用，而要自己配置视频源后才能正常的播放点播和直播内容。该软件十分强大，也非常的好用。 请大家低调使用，毕竟灰色软件！
+使用方法 # 安装好软件后，进入软件，设置，配置地址，选择路线，选择播放源，就能选择自己喜欢的视频和电视直播了。
+配置地址
+选择线路
+远程配置推送
+TVbox 接口视频源分享 # 饭太硬 http://饭太硬.ga/tv 肥猫接口 http://我不是.肥猫.love:63/接口禁止贩卖 FongMI https://ghproxy.com/raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json 相关网站 # 饭太硬 http://xn--sss604efuw.ga/ https://饭太硬.ga
+肥猫 https://xn--z7x900a.love/ https://肥猫.love
+手机版 # EasyBox-1.0.8 不带视频源，自行添加 链接：微云网盘下载地址 密码：ssv4z9</description></item><item><title>Debian Theme Whitesur</title><link>/posts/linux/debian-theme-whitesur/</link><pubDate>Thu, 16 Mar 2023 20:06:36 +0800</pubDate><guid>/posts/linux/debian-theme-whitesur/</guid><description>&lt;p>!!! note
 通过安装Whitesur主题，让你的linux看起来非常炫酷。&lt;/p></description></item><item><title>Debian11 Learn 相关命令</title><link>/posts/linux/debian11-learn/</link><pubDate>Sun, 05 Mar 2023 18:27:38 +0800</pubDate><guid>/posts/linux/debian11-learn/</guid><description>&lt;p>!!! note
 刚刚入手debian11,记录使用中遇到的一些常用命令。&lt;/p></description></item><item><title>Debian从稳定版切换到testing版</title><link>/posts/linux/debian-testing/</link><pubDate>Sun, 05 Mar 2023 14:50:31 +0800</pubDate><guid>/posts/linux/debian-testing/</guid><description>&lt;p>!!! note
 debian升级到testing – 让debian系统永远保持最新的秘诀&lt;/p></description></item><item><title>分享VSCode插件</title><link>/posts/share/share-vscode-plugins/</link><pubDate>Sat, 04 Mar 2023 15:34:45 +0800</pubDate><guid>/posts/share/share-vscode-plugins/</guid><description>&lt;p>!!! warning
