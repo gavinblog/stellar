@@ -1,14 +1,14 @@
 ---
-title: share-分享TVBox类TV盒子软件
-subtitle: "分享TVBox类的电视盒子软件以及使用方法简介"
+title: Share-分享TVBox类TV盒子软件
+subtitle: "子标题"
 date: 2023-03-22T16:39:54+08:00
 author: 毕少侠
 # weight: 0
-description: "摘要"
+description: "分享TVBox类的电视盒子软件以及使用方法简介"
 keywords: [""] #关键词
 
-tags: ["标签1","标签2"]
-categories: ["分类"]
+tags: ["分享","TVBox"]
+categories: ["share"]
 
 featuredImage: "/images/posts/featured-image-preview.jpg"
 ---
