@@ -13,15 +13,15 @@ categories: ["share"]
 featuredImage: "/images/posts/featured-image-preview.jpg"
 ---
 !!! warning 申明
-    所有资源来自互联网，视频源归原作者，请勿商业用途，否则后果自负。
+    所有资源来自互联网，视频源归原作者，请勿商业用途，否则后果自负。  
     note abstract info tip success question warning failure danger bug example quote
 
 ## 资源下载
 
 [饭太硬导航](https://饭太硬.ga) 这里有TVBox类壳子资源网站
 
-> 说明：TVBox 影视壳子，只是给空壳软件，不提供视频播放源的。
-毕竟开发者要规避法律风险的，只提供工具。
+> 说明：TVBox 影视壳子，只是给空壳软件，不提供视频播放源的。  
+毕竟开发者要规避法律风险的，只提供工具。  
 这就使这个软件下载过后，安装后并不能直接使用，而要自己配置视频源后才能正常的播放点播和直播内容。该软件十分强大，也非常的好用。
 请大家低调使用，毕竟灰色软件！
 
@@ -49,5 +49,5 @@ featuredImage: "/images/posts/featured-image-preview.jpg"
  
 ## 手机版
 
-> EasyBox-1.0.8 不带视频源，自行添加 
+> EasyBox-1.0.8 不带视频源，自行添加.   
 > 链接：[微云网盘下载地址](https://share.weiyun.com/XUB4hguT) 密码：ssv4z9
