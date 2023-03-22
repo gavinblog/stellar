@@ -50,4 +50,4 @@ featuredImage: "/images/posts/featured-image-preview.jpg"
 ## 手机版
 
 > EasyBox-1.0.8 不带视频源，自行添加
-> 链接：https://share.weiyun.com/XUB4hguT 密码：ssv4z9
+> 链接：[微云网盘下载地址](https://share.weiyun.com/XUB4hguT) 密码：ssv4z9
