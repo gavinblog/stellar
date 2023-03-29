@@ -32,7 +32,7 @@
     url: "https://gohugo.io/"
     logo: "/img/social/hugo.svg"
   - name: "github"
-    url: "https://github.com/fixit-theme/hugo-blog"
+    url: "https://github.com/gavinblog/stellar"
     logo: "/img/social/github.svg"
   - name: "bilibili"
     url: "https://space.bilibili.com/"
