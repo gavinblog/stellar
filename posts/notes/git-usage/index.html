@@ -1,0 +1,112 @@
+<!doctype html><html lang=en><head><title>Git常用命令 - 毕少侠-By stellar</title><meta charset=utf-8><meta name=author content="毕少侠"><meta name=Robots content="All"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=renderer content="webkit"><meta name=force-rendering content="webkit"><meta http-equiv=windows-target content="_top"><link rel="shortcut icon" type=image/x-icon href=../../../logo.svg><link rel=alt type=application/rss+xml href=../../../index.xml title="毕少侠-By stellar"><link rel=stylesheet href=../../../_index.css><script src=../../../modules/redirector.js></script><link rel=dns-prefetch href=https://cdn.staticfile.org>
+<link rel=preconnect href=https://cdn.staticfile.org crossorigin><link rel=stylesheet href=https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.1.0/lxgwwenkaiscreen.css><script src=https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js></script><script src=https://cdn.staticfile.org/mermaid/9.4.0/mermaid.js></script><link rel=stylesheet href=../../../modules/fancybox.css><script src=../../../modules/fancybox.umd.js defer></script><script src=../../../modules/img.js defer></script><script src=../../../modules/toc.js defer></script><script src=../../../modules/codeblock.js defer></script><script src=../../../modules/mathjax.js defer></script><script src=https://cdn.staticfile.org/mathjax/2.7.7/MathJax.js defer></script>
+<script>mermaid.initialize({securityLevel:"loose",themeVariables:{fontFamily:"Cera Round Pro",fontSize:"85%"}})</script></head><body><div class=LBody><div class=Side><header class=header><div class=info><a class=avatar href=../../../><div class="bg shadow"></div><img class="bg rainbow" src=../../../img/rainbow64@3x.webp>
+<img class=avatar src=../../../avatar.png></a>
+<a class=title href=../../../><p class="text site-title">毕少侠</p><p class="sub up">毕少侠也在江湖</p><p class="sub dw">Talk is Cheap, Show me the code.</p></a></div><nav class=menu><a class="nav-item active" href=../../../>博客</a><a class=nav-item href=../../../docs/>文档</a><a class=nav-item href=../../../search/>搜索</a><a class=nav-item href=../../../about/>关于</a></nav></header><div class=widgets><div class="widget search"><div class=search-form><input type=text class=search-input id=side-search-input placeholder autocomplete=off>
+<img class=search-icon src=../../../img/search.svg>
+<script>var $input=$("#side-search-input"),section=window.location.pathname.substring(0,6)=="/docs/"?"docs":"posts";$input.attr("placeholder",section=="docs"?"文档搜索":"博客搜索"),$input.keydown(e=>{e.keyCode==13&&window.open(`/search/?sec=${section}?key=${$input.val()}`)})</script></div></div><div class="widget toc"><p class=title><a href=#>Git常用命令</a></p><div class="content markdown"><nav id=TableOfContents><ul><li><a href=#配置相关>配置相关</a></li><li><a href=#快速上手>快速上手</a></li><li><a href=#子模块相关>子模块相关</a></li><li><a href=#由chatgpt生成>由ChatGPT生成</a></li></ul></nav></div></div></div><footer class=footer><div class=social><a class=box href=https://geekswg.js.cool/ target=_blank><img src=https://geekswg.js.cool/logo.png>
+</a><a class=box href=https://yharim.com/ target=_blank><img src=https://yharim.com/avatar.png>
+</a><a class=box href=https://github.com/Yharimium/hugo-stellar target=_blank><img src=../../../avatar.png>
+</a><a class=box href=https://gohugo.io/ target=_blank><img src=../../../img/social/hugo.svg>
+</a><a class=box href=https://github.com/gavinblog/stellar target=_blank><img src=../../../img/social/github.svg>
+</a><a class=box href=https://space.bilibili.com/ target=_blank><img src=../../../img/social/bilibili.svg></a></div></footer></div><div class=Main><div class="info mobile-only"><a class=avatar href=../../../><div class="bg shadow"></div><img class="bg rainbow" src=../../../img/rainbow64@3x.webp>
+<img class=avatar src=../../../avatar.png></a>
+<a class=title href=../../../><p class="text site-title">毕少侠</p><p class="sub up">毕少侠也在江湖</p><p class="sub dw">Talk is Cheap, Show me the code.</p></a></div><div class="mobile-only sidebar-button" onclick=sidebar_button_click()><img src=../../../img/menu.svg></img>
+<script>sidebar_button_click=e=>{$(".Side")[0].classList.toggle("layout"),$(".sidebar-button")[0].classList.toggle("layout")}</script></div><main class="content markdown"><div class=params><div class=categories><a class=param href=../../../categories/notes>notes</a></div><div class=tags><a class=param href=../../../tags/git>git</a><a class=param href=../../../tags/%e7%ac%94%e8%ae%b0>笔记</a></div></div><div class=meta>发布于 2023-4-17</div><h1 class=title>Git常用命令</h1><span class=description>记录经常使用到git命令，以便查用</span><p>Git 是一个分布式版本控制系统，用于跟踪文件和代码的更改。经常用来管理代码，方便查阅，版本控制，合作开发，代码审阅。
+记录经常使用到git命令，以便查用.</p><h2 id=#配置相关>配置相关
+<a class=anchor name=配置相关 href=#%e9%85%8d%e7%bd%ae%e7%9b%b8%e5%85%b3>#</a></h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt id=1><a class=lnlinks href=#1>1</a>
+</span><span class=lnt id=2><a class=lnlinks href=#2>2</a>
+</span><span class=lnt id=3><a class=lnlinks href=#3>3</a>
+</span><span class=lnt id=4><a class=lnlinks href=#4>4</a>
+</span><span class=lnt id=5><a class=lnlinks href=#5>5</a>
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl><span class=c1># 设置默认主分支名称 为main</span>
+</span></span><span class=line><span class=cl>git config --global init.defaultBranch main 
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>#配置 http.sslVerify 为 false, 如下：</span>
+</span></span><span class=line><span class=cl>git config --global http.sslVerify false</span></span></code></pre></td></tr></table></div><span class=board><img class=edit src=../../../img/edit.svg>
+<img class=clipboard src=../../../img/clipboard.svg></span></div><h2 id=#快速上手>快速上手
+<a class=anchor name=快速上手 href=#%e5%bf%ab%e9%80%9f%e4%b8%8a%e6%89%8b>#</a></h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt id=1><a class=lnlinks href=#1>1</a>
+</span><span class=lnt id=2><a class=lnlinks href=#2>2</a>
+</span><span class=lnt id=3><a class=lnlinks href=#3>3</a>
+</span><span class=lnt id=4><a class=lnlinks href=#4>4</a>
+</span><span class=lnt id=5><a class=lnlinks href=#5>5</a>
+</span><span class=lnt id=6><a class=lnlinks href=#6>6</a>
+</span><span class=lnt id=7><a class=lnlinks href=#7>7</a>
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl><span class=c1># 快速开始命令</span>
+</span></span><span class=line><span class=cl>git init
+</span></span><span class=line><span class=cl>git add README.md
+</span></span><span class=line><span class=cl>git commit -m <span class=s2>&#34;first commit&#34;</span>
+</span></span><span class=line><span class=cl>git branch -M main
+</span></span><span class=line><span class=cl>git remote add origin https://github.com/geekswg/test.git
+</span></span><span class=line><span class=cl>git push -u origin main</span></span></code></pre></td></tr></table></div><span class=board><img class=edit src=../../../img/edit.svg>
+<img class=clipboard src=../../../img/clipboard.svg></span></div><h2 id=#子模块相关>子模块相关
+<a class=anchor name=子模块相关 href=#%e5%ad%90%e6%a8%a1%e5%9d%97%e7%9b%b8%e5%85%b3>#</a></h2><blockquote><p>Git 子模块是 Git 仓库中嵌套的另一个 Git 仓库，它允许你将一个 Git 仓库作为另一个 Git 仓库的一个子目录，方便管理多个子项目的代码。</p></blockquote><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt id=1><a class=lnlinks href=#1> 1</a>
+</span><span class=lnt id=2><a class=lnlinks href=#2> 2</a>
+</span><span class=lnt id=3><a class=lnlinks href=#3> 3</a>
+</span><span class=lnt id=4><a class=lnlinks href=#4> 4</a>
+</span><span class=lnt id=5><a class=lnlinks href=#5> 5</a>
+</span><span class=lnt id=6><a class=lnlinks href=#6> 6</a>
+</span><span class=lnt id=7><a class=lnlinks href=#7> 7</a>
+</span><span class=lnt id=8><a class=lnlinks href=#8> 8</a>
+</span><span class=lnt id=9><a class=lnlinks href=#9> 9</a>
+</span><span class=lnt id=10><a class=lnlinks href=#10>10</a>
+</span><span class=lnt id=11><a class=lnlinks href=#11>11</a>
+</span><span class=lnt id=12><a class=lnlinks href=#12>12</a>
+</span><span class=lnt id=13><a class=lnlinks href=#13>13</a>
+</span><span class=lnt id=14><a class=lnlinks href=#14>14</a>
+</span><span class=lnt id=15><a class=lnlinks href=#15>15</a>
+</span><span class=lnt id=16><a class=lnlinks href=#16>16</a>
+</span><span class=lnt id=17><a class=lnlinks href=#17>17</a>
+</span><span class=lnt id=18><a class=lnlinks href=#18>18</a>
+</span><span class=lnt id=19><a class=lnlinks href=#19>19</a>
+</span><span class=lnt id=20><a class=lnlinks href=#20>20</a>
+</span><span class=lnt id=21><a class=lnlinks href=#21>21</a>
+</span><span class=lnt id=22><a class=lnlinks href=#22>22</a>
+</span><span class=lnt id=23><a class=lnlinks href=#23>23</a>
+</span><span class=lnt id=24><a class=lnlinks href=#24>24</a>
+</span><span class=lnt id=25><a class=lnlinks href=#25>25</a>
+</span><span class=lnt id=26><a class=lnlinks href=#26>26</a>
+</span><span class=lnt id=27><a class=lnlinks href=#27>27</a>
+</span><span class=lnt id=28><a class=lnlinks href=#28>28</a>
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl><span class=c1># 初始化git ，使用git子模块 添加主题</span>
+</span></span><span class=line><span class=cl>git init
+</span></span><span class=line><span class=cl><span class=c1># 添加子模块</span>
+</span></span><span class=line><span class=cl>git submodule add https://github.com/hugo-fixit/FixIt.git themes/FixIt
+</span></span><span class=line><span class=cl><span class=c1># 更新同步子模块</span>
+</span></span><span class=line><span class=cl>git submodule update --remote --merge
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># 自动克隆子模块 在执行 git clone 时加上 --recursive 参数</span>
+</span></span><span class=line><span class=cl>git clone --recursive https://github.com/example/example.git
+</span></span><span class=line><span class=cl><span class=c1># 如果克隆的项目包含子模块，使用下面方法更新下载子模块</span>
+</span></span><span class=line><span class=cl>git submodule update --init
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># Git 子模块相关的命令：</span>
+</span></span><span class=line><span class=cl>git submodule add &lt;repository&gt; &lt;path&gt;：将一个 Git 仓库添加为子模块。
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>git submodule init：初始化子模块，将 .gitmodules 配置文件中列出的子模块拉取到本地。
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>git submodule update：更新子模块，将子模块更新到最新的 commit。
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>git submodule foreach &lt;command&gt;：对每个子模块执行命令。
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>git submodule status：查看子模块的状态，包括子模块的 commit ID 和是否有未提交的修改。
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>git submodule sync：同步子模块的 URL 和路径。
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>git submodule update --remote：更新子模块到最新的远程分支。
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>git submodule deinit &lt;submodule&gt;：从父仓库中删除子模块。</span></span></code></pre></td></tr></table></div><span class=board><img class=edit src=../../../img/edit.svg>
+<img class=clipboard src=../../../img/clipboard.svg></span></div><blockquote><p>注意，对于子模块的操作需要在父仓库中进行。在进行子模块的操作时，需要切换到子模块所在的目录中进行。</p></blockquote><h2 id=#由chatgpt生成>由ChatGPT生成
+<a class=anchor name=由chatgpt生成 href=#%e7%94%b1chatgpt%e7%94%9f%e6%88%90>#</a></h2><p>以下是一些常用的 Git 命令：
+初始化仓库：创建一个新的 Git 仓库或将现有项目初始化为 Git 仓库。</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt id=1><a class=lnlinks href=#1>1</a>
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>git init</span></span></code></pre></td></tr></table></div><span class=board><img class=edit src=../../../img/edit.svg>
+<img class=clipboard src=../../../img/clipboard.svg></span></div><p>克隆仓库：将远程仓库克隆到本地。</p><div class=highlight><pre tabindex=0><code>git clone &lt;repository_url&gt;</code></pre><span class=board><img class=edit src=../../../img/edit.svg>
+<img class=clipboard src=../../../img/clipboard.svg></span></div><p>添加文件：将文件添加到暂存区。</p><div class=highlight><pre tabindex=0><code>git add &lt;file_name&gt;
+git add .  # 将所有文件添加到暂存区</code></pre><span class=board><img class=edit src=../../../img/edit.svg>
+<img class=clipboard src=../../../img/clipboard.svg></span></div><p>提交更改：将暂存区中的更改提交到本地仓库。</p><div class=highlight><pre tabindex=0><code>git commit -m &#34;Commit message&#34;</code></pre><span class=board><img class=edit src=../../../img/edit.svg>
+<img class=clipboard src=../../../img/clipboard.svg></span></div><p>查看状态：查看文件的更改状态。</p><div class=highlight><pre tabindex=0><code>git status</code></pre><span class=board><img class=edit src=../../../img/edit.svg>
+<img class=clipboard src=../../../img/clipboard.svg></span></div><p>查看日志：查看提交历史。</p><div class=highlight><pre tabindex=0><code>git log</code></pre><span class=board><img class=edit src=../../../img/edit.svg>
+<img class=clipboard src=../../../img/clipboard.svg></span></div><p>检出分支：切换到指定分支。</p><div class=highlight><pre tabindex=0><code>git checkout &lt;branch_name&gt;</code></pre><span class=board><img class=edit src=../../../img/edit.svg>
+<img class=clipboard src=../../../img/clipboard.svg></span></div><p>创建分支：创建一个新的分支。</p><div class=highlight><pre tabindex=0><code>git branch &lt;new_branch_name&gt;</code></pre><span class=board><img class=edit src=../../../img/edit.svg>
+<img class=clipboard src=../../../img/clipboard.svg></span></div><p>合并分支：将指定分支的更改合并到当前分支。</p><div class=highlight><pre tabindex=0><code>git merge &lt;source_branch&gt;</code></pre><span class=board><img class=edit src=../../../img/edit.svg>
+<img class=clipboard src=../../../img/clipboard.svg></span></div></main></div></div></body></html>
